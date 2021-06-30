@@ -83,7 +83,7 @@ using NewBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 4 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/NewCity.razor"
+#line 5 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/NewCity.razor"
        
     [Parameter]
     public string City { get; set; }

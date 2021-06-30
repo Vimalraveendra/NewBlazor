@@ -84,7 +84,7 @@ using NewBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 20 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/Index.razor"
+#line 21 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/Index.razor"
       
 
     private string headingText = "Welcome to Blazor";
@@ -93,6 +93,12 @@ using NewBlazor.Shared;
     public void Increment()
     {
         count++;
+    }
+
+    public string SelectedCity;
+    public void HandleCustom(string newValue)
+    {
+        SelectedCity = newValue;
     }
 
 #line default

@@ -9,11 +9,12 @@
 
 <h3 class="bg-info text-white">Select Your City</h3>
 
-<SelectCity MyCity="Warsaw" MyBackground="bg-warning">
+<SelectCity MyCity="Warsaw" MyBackground="bg-warning" myCustomEvent="@HandleCustom">
     <Weather>Moderate and Humid</Weather>
     <Elevation>14m</Elevation>
  
 </SelectCity>
+<label>@SelectedCity</label>
 
 <NewCity> Commercial Capital of London</NewCity>
 
@@ -25,5 +26,11 @@
     public void Increment()
     {
         count++;
+    }
+
+    public string SelectedCity;
+    public void HandleCustom(string newValue)
+    {
+        SelectedCity = newValue;
     }
 }
