@@ -94,11 +94,21 @@ using NewBlazor.Shared;
     public string MyBackground { get; set; }
 
 
-  
+
     [Parameter]
     public RenderFragment Weather { get; set; }
     [Parameter]
     public RenderFragment Elevation { get; set; }
+
+
+    [Parameter]
+    public EventCallback<string> myCustomEvent { get; set; }
+
+    public async Task HandleSelect(ChangeEventArgs e)
+    {
+        string SelectedValue = e.Value as string;
+        await myCustomEvent.InvokeAsync(SelectedValue);
+    }
 
 #line default
 #line hidden
