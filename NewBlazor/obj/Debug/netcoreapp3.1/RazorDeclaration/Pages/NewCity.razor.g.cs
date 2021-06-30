@@ -75,8 +75,7 @@ using NewBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class NewCity : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -84,16 +83,14 @@ using NewBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 20 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/Index.razor"
-      
+#line 4 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/NewCity.razor"
+       
+    [Parameter]
+    public string City { get; set; }
 
-    private string headingText = "Welcome to Blazor";
-    private int count = 0;
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
 
-    public void Increment()
-    {
-        count++;
-    }
 
 #line default
 #line hidden

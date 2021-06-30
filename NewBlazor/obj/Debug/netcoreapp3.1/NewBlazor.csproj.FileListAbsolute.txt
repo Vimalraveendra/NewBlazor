@@ -50,3 +50,9 @@
 /Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/obj/Debug/netcoreapp3.1/NewBlazor.csproj.CopyComplete
 /Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/SelectCity.razor.g.cs
 /Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/obj/Debug/netcoreapp3.1/Razor/Pages/SelectCity.razor.g.cs
+/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Tech.razor.g.cs
+/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/obj/Debug/netcoreapp3.1/Razor/Pages/Tech.razor.g.cs
+/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Catch.razor.g.cs
+/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/obj/Debug/netcoreapp3.1/Razor/Pages/Catch.razor.g.cs
+/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/NewCity.razor.g.cs
+/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/obj/Debug/netcoreapp3.1/Razor/Pages/NewCity.razor.g.cs

@@ -83,7 +83,7 @@ using NewBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 13 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/SelectCity.razor"
+#line 19 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/SelectCity.razor"
        
 
     public string[] Cities = new string[] { "Washington DC", "Warsaw", "London" };
@@ -92,6 +92,13 @@ using NewBlazor.Shared;
 
     [Parameter]
     public string MyBackground { get; set; }
+
+
+  
+    [Parameter]
+    public RenderFragment Weather { get; set; }
+    [Parameter]
+    public RenderFragment Elevation { get; set; }
 
 #line default
 #line hidden
