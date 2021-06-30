@@ -75,8 +75,8 @@ using NewBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Catch/{AllCatch}")]
+    public partial class Catch : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -84,16 +84,10 @@ using NewBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 20 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/Index.razor"
-      
-
-    private string headingText = "Welcome to Blazor";
-    private int count = 0;
-
-    public void Increment()
-    {
-        count++;
-    }
+#line 6 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/Catch.razor"
+       
+    [Parameter]
+    public string AllCatch { get; set; }
 
 #line default
 #line hidden

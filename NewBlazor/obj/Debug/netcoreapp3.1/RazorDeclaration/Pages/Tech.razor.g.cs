@@ -75,8 +75,8 @@ using NewBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Tech/{Company}/{Framework:int}")]
+    public partial class Tech : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -84,16 +84,14 @@ using NewBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 20 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/Index.razor"
-      
+#line 7 "/Users/vimalraveendran/Desktop/blazor/NewBlazor/NewBlazor/Pages/Tech.razor"
+       
 
-    private string headingText = "Welcome to Blazor";
-    private int count = 0;
+    [Parameter]
+    public int FrameWork { get; set; }
+    [Parameter]
+    public string Company { get; set; }
 
-    public void Increment()
-    {
-        count++;
-    }
 
 #line default
 #line hidden

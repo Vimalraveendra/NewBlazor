@@ -1,0 +1,14 @@
+﻿@page "/Tech/{Company}/{Framework:int}"
+
+<h1>Technology is @FrameWork</h1>
+
+<h1 class="bg-info text-white">Technology is @FrameWork by @Company</h1>
+
+@code {
+
+    [Parameter]
+    public int FrameWork { get; set; }
+    [Parameter]
+    public string Company { get; set; }
+
+}
