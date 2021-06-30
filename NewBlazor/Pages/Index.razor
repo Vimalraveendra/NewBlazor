@@ -1,0 +1,23 @@
+﻿@page "/"
+
+
+
+<h1>@headingText</h1>
+ <p>Counter:@count</p>
+
+<button class="btn btn-primary" @onclick="Increment">Click me!</button>
+
+<h3 class="bg-info text-white">Select Your City</h3>
+
+<SelectCity MyCity="Warsaw" MyBackground="bg-warning"></SelectCity>
+
+@code{
+
+    private string headingText = "Welcome to Blazor";
+    private int count = 0;
+
+    public void Increment()
+    {
+        count++;
+    }
+}

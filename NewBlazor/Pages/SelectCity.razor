@@ -1,0 +1,21 @@
+﻿<div class="form-group p-2 @MyBackground">
+    <label for="city">City</label>
+    <select name="city" class="form-control">
+        <option disabled selected>Select City</option>
+          @foreach(string City in Cities)
+            {
+                <option value="@City" selected="@(City==MyCity)">@City</option>
+            }
+       
+    </select>
+</div>
+
+@code {
+
+    public string[] Cities = new string[] { "Washington DC", "Warsaw", "London" };
+    [Parameter]
+    public string MyCity { get; set; }
+
+    [Parameter]
+    public string MyBackground { get; set; }
+}
